@@ -1,0 +1,50 @@
+[
+  {
+    "name": "DEWALT 5-in-1 Multifunction Hacksaw",
+    "price": "160",
+    "minOrderQuantity": "5",
+    "availableQuantity": "105",
+    "description": "Strong engine options, including a plug-in hybrid · Standard adaptive air suspension delivers a comfortable.",
+    "image": "https://i.ibb.co/smkHfGj/img1.jpg"
+  },
+  {
+    "name": "Vaughan oz. Ball Pein Hammer (15-3/4",
+    "price": "200",
+    "minOrderQuantity": "5",
+    "availableQuantity": "150",
+    "description": "Strong engine options, including a plug-in hybrid · Standard adaptive air suspension delivers a comfortable.",
+    "image": "https://i.ibb.co/NmGfYZw/img2.jpg"
+  },
+  {
+    "name": "DEWALT Compound Action Diagonal Pliers",
+    "price": "180",
+    "minOrderQuantity": "5",
+    "availableQuantity": "1005",
+    "description": "Strong engine options, including a plug-in hybrid · Standard adaptive air suspension delivers a comfortable.",
+    "image": "https://i.ibb.co/pryP8pc/img3.jpg"
+  },
+  {
+    "name": "Milwaukee 1-5/8 Ratcheting Pipe Cutter",
+    "price": "170",
+    "minOrderQuantity": "5",
+    "availableQuantity": "1000",
+    "description": "Strong engine options, including a plug-in hybrid · Standard adaptive air suspension delivers a comfortable.",
+    "image": "https://i.ibb.co/z5shd74/img4.jpg"
+  },
+  {
+    "name": "Malco12 Andy Snip Heavy Duty Vinyl Snips",
+    "price": "100",
+    "minOrderQuantity": "5",
+    "availableQuantity": "1000",
+    "description": "Strong engine options, including a plug-in hybrid · Standard adaptive air suspension delivers a comfortable.",
+    "image": "https://i.ibb.co/6w97X05/img5.jpg"
+  },
+  {
+    "name": "Milwaukee Mini Flush Cutters",
+    "price": "110",
+    "minOrderQuantity": "5",
+    "availableQuantity": "105",
+    "description": "Strong engine options, including a plug-in hybrid · Standard adaptive air suspension delivers a comfortable.",
+    "image": "https://i.ibb.co/NW6hWyv/img6.jpg"
+  }
+]
