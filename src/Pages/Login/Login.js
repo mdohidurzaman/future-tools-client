@@ -43,7 +43,7 @@ const Login = () => {
   };
   return (
     <div className="contianer w-50 mx-auto login-form">
-      <h1 className="text-center text-5xl mb-5">Login to Future Tools!!</h1>
+      <h1 className="text-start text-3xl mb-5">Login</h1>
       <Form onSubmit={handleSubmit}>
         <input
           ref={emailRef}

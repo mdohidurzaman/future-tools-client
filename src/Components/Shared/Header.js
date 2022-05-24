@@ -68,7 +68,9 @@ const Header = () => {
             {menuitems}
           </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-xl">Future Tools</a>
+        <Link to="/" class="text-3xl">
+          Future Tools
+        </Link>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">{menuitems}</ul>

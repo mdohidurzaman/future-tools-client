@@ -33,7 +33,7 @@ const Register = () => {
 
   return (
     <div className="register-form">
-      <h2 className="m-5 text-center text-5xl">Register to future tools!</h2>
+      <h2 className="mb-3 text-start text-3xl">Register</h2>
       <form onSubmit={handleRegister}>
         <input type="text" name="name" id="" placeholder="Your name" required />
         <input
@@ -57,7 +57,7 @@ const Register = () => {
       <p className="mt-3">
         Have an Account ?
         <span
-          className="text-info"
+          className="text-info pl-2"
           style={{ cursor: "pointer" }}
           onClick={navigateToLogin}
         >
