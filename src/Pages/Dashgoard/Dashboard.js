@@ -8,13 +8,12 @@ const Dashboard = () => {
       <div class="drawer-content mx-auto mt-3">
         <h1 className="text-3xl">Welcome to Your Dashboard</h1>
         <Outlet></Outlet>
-
-        <label
+        {/* <label
           for="my-drawer-2"
           class="btn btn-primary drawer-button lg:hidden"
         >
           Open drawer
-        </label>
+        </label> */}
       </div>
       <div class="drawer-side">
         <label for="my-drawer-2" class="drawer-overlay"></label>

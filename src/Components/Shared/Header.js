@@ -71,12 +71,21 @@ const Header = () => {
             {menuitems}
           </ul>
         </div>
+
         <Link to="/" class="text-3xl">
           Future Tools
         </Link>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">{menuitems}</ul>
+      </div>
+      <div className="navbar-end">
+        <label
+          for="my-drawer-2"
+          class="btn btn-primary drawer-button lg:hidden"
+        >
+          Dashboard menu
+        </label>
       </div>
     </div>
   );
