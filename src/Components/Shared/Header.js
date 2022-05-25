@@ -20,6 +20,9 @@ const Header = () => {
       <li>
         <Link to="/blog">Blog</Link>
       </li>
+      <li>
+        <Link to="/portfolio">My Portfolio</Link>
+      </li>
 
       {user && (
         <li>
@@ -42,7 +45,7 @@ const Header = () => {
   );
 
   return (
-    <div class="navbar bg-base-100">
+    <div class="navbar bg-base-100 px-20">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
