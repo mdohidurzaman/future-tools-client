@@ -13,6 +13,7 @@ import RequireAuth from "./Pages/RequireAuth";
 import Purchase from "./Pages/Purchase/Purchase";
 import Shipping from "./Pages/Shipping";
 import Footer from "./Components/Shared/Footer";
+import NotFound from "./Pages/NotFound";
 function App() {
   return (
     <div className="App">
@@ -31,6 +32,7 @@ function App() {
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="/blog" element={<Blog></Blog>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
         <Route
           path="/dashboard"
           element={
