@@ -9,7 +9,6 @@ import Loading from "../../Components/Shared/Loading";
 const Register = () => {
   const [createUserWithEmailAndPassword, user, loading] =
     useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
-
   const navigate = useNavigate();
   const navigateToLogin = () => {
     navigate("/login");
