@@ -12,11 +12,11 @@ const Purchase = () => {
       .then((data) => setTools(data));
   }, [id]);
   return (
-    <div className="gap-16 grid sm:grid-cols-1 md:grid-cols-3 justify-center">
+    <div className="gap-16 grid mx-auto my-10">
       <div class="mx-auto block card w-96 bg-base-100 shadow-xl">
         <Link to="/shipping">
           <figure>
-            <img src={tools.image} alt="Shoes" />
+            <img src={tools.image} alt="Tools" />
           </figure>
         </Link>
         <div class="card-body text-default">

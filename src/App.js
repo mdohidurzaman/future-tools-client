@@ -15,6 +15,7 @@ import Shipping from "./Pages/Shipping";
 import Footer from "./Components/Shared/Footer";
 import NotFound from "./Pages/NotFound";
 import MyPortfolio from "./Pages/MyPortfolio";
+import AddProducts from "./Pages/AddProducts";
 function App() {
   return (
     <div className="App">
@@ -29,6 +30,7 @@ function App() {
           }
         ></Route>
         <Route path="/" element={<Home></Home>}></Route>
+        <Route path="addproduct" element={<AddProducts></AddProducts>}></Route>
         <Route path="/shipping" element={<Shipping></Shipping>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>

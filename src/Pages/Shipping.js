@@ -42,7 +42,7 @@ const Shipping = () => {
               />
             </div>
             <div class="form-control mt-6">
-              <button class="btn btn-primary">Login</button>
+              <button class="btn btn-primary">Place order</button>
             </div>
           </div>
         </div>
