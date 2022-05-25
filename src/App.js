@@ -12,6 +12,7 @@ import Dashboard from "./Pages/Dashgoard/Dashboard";
 import RequireAuth from "./Pages/RequireAuth";
 import Purchase from "./Pages/Purchase/Purchase";
 import Shipping from "./Pages/Shipping";
+import Footer from "./Components/Shared/Footer";
 function App() {
   return (
     <div className="App">
@@ -43,6 +44,7 @@ function App() {
           <Route path="addreview" element={<AddReview></AddReview>}></Route>
         </Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

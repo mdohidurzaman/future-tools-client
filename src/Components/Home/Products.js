@@ -26,7 +26,7 @@ const Products = () => {
           {tools.map((tool) => (
             <div key={tool._id} class="card w-96 bg-base-100 shadow-xl">
               <figure>
-                <img src={tool.image} alt="Shoes" />
+                <img src={tool.image} alt="Hand tools" />
               </figure>
               <div class="card-body justify-center">
                 <h2 class="card-title">{tool.name}</h2>
