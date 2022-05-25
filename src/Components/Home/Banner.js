@@ -7,7 +7,7 @@ const Banner = () => {
       <div class="hero-overlay bg-opacity-60"></div>
       <div class="hero-content items-start text-neutral-content">
         <div class="max-w-md">
-          <h1 class="mb-5 text-5xl font-bold">Welcome to Our Hand Tools</h1>
+          <h1 class="mb-5 text-5xl font-bold">Welcome to Our Future Tools</h1>
           <p class="mb-5">
             If you need best hand tools the future tools is a right place for
             you. We will manufacture all types of hand tools and sell is various
