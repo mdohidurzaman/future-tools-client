@@ -34,7 +34,7 @@ const AddProducts = () => {
       .then((data) => {
         console.log("success", data);
       });
-    alert("Your inventory is added successfuly");
+    alert("Your product is added successfuly");
     event.target.reset();
   };
   return (
