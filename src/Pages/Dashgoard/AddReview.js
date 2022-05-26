@@ -17,7 +17,7 @@ const AddReview = () => {
     };
 
     //Send data to the server
-    const url = `http://localhost:5000/review`;
+    const url = `https://young-brushlands-90015.herokuapp.com/review`;
     fetch(url, {
       method: "POST",
       headers: {

@@ -22,7 +22,7 @@ const AddProducts = () => {
     };
 
     //Send data to the server
-    const url = `http://localhost:5000/tool`;
+    const url = `https://young-brushlands-90015.herokuapp.com/tool`;
     fetch(url, {
       method: "POST",
       headers: {

@@ -6,7 +6,7 @@ const Purchase = () => {
   const [tools, setTools] = useState([]);
 
   useEffect(() => {
-    const url = `http://localhost:5000/tool/${id}`;
+    const url = `https://young-brushlands-90015.herokuapp.com/tool/${id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setTools(data));
