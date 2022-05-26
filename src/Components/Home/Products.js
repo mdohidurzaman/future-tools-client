@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import useTools from "../../Hooks/useTools";
 import Loading from "../../Components/Shared/Loading";
 
@@ -56,6 +56,11 @@ const Products = () => {
           ))}
         </div>
       )}
+      <div className="my-10 mx-auto">
+        <Link to="/addproduct">
+          <button className="btn btn-secendary">Add Product</button>
+        </Link>
+      </div>
     </div>
   );
 };
